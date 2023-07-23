@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/CSS" href="formulario01.html">
+    <link rel="stylesheet" type="text/CSS" href="formulario01.css">
     <title>Formulário 01 "estudo"</title>
 </head>
 <body>
@@ -24,14 +24,13 @@
                 <label for="sobrenome">Sobrenome</label>
                 <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
-        
         </fieldset>
 
         <div class="campo">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" required>
         </div>
-
+            <br>
         <div class="campo">
             <label>De qual lado da aplicação você desenvolve</label>
             <label>
@@ -56,12 +55,14 @@
         </div>
         <fieldset class="grupo">
 
-            <div class="campo">
+            <div id="check">
                 <label>Selecione as tecnologia que utiliza:</label>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
                 <label for="tecnologia1">HTML</label>
                 <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
                 <label for="tecnologia2">CSS</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="PHP">
+                <label for="tecnologia3">PHP</label>
             </div>
 
         </fieldset>
